@@ -13,14 +13,14 @@ is a video :  https://youtu.be/Ry1xJV906Qo
 - Extract the "assets.zip" folder, this will create a "Buildings" directory.
 - Navigate to your blender install, you will need to install some libraries
   to your blender python environment. This can be found (at time of writing)
-  at `Blender-install-dir/3.4/python/bin
+  at `Blender-install-dir/3.4/python/bin`
 - Install pip, which doesn't come with Blender by default, `./Blender-install-dir/3.4/python/bin/python3.10 -m ensurepip`
 - Install the openassetio requirements into the blender python environment `./Blender-install-dir/3.4/python/bin/python3.10 -m pip install -r requirements.txt`
 - Configure openassetio to use the provided config file `export OPENASSETIO_DEFAULT_CONFIG="./blender_resolver_config.toml"`
 - Launch Blender `./Blender-install-dir/blender`
 - Inside blender, open `relationshipScene.blend`
 - Navigate to the scripting view if not already open. Near the top of the
-  UI, open `openassetio_import.py` and push the "run script" button. (It
+  text editor UI, open `openassetio_import.py` and push the "run script" button. (It
   looks like a play button.) Do the same with `object_relationships.py`
 
 This enables the import panel in the scene settings, and the relationships
