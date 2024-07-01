@@ -39,10 +39,6 @@ if not manager.hasCapability(manager.Capability.kResolution):
 
 class RelationshipProperties(bpy.types.PropertyGroup):
     
-    my_string : bpy.props.StringProperty(name= "Enter Text")
-    
-    my_float_vector : bpy.props.FloatVectorProperty(name= "Scale", soft_min= 0, soft_max= 1000, default= (1,1,1))
-    
     def get_proxies(self, context):
         
         entity_reference_str = bpy.context.active_object["entity_reference"]
