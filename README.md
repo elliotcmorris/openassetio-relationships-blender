@@ -3,7 +3,7 @@ A short and to the point demonstration of openassetio relationships, using blend
 
 This repo is setup mostly to run the demo, although the scripts are
 provided outside of the blendfile in the `scripts` directory, as
-they may serve as some reference.
+they may serve as some reference. (Not the best reference though! It's very rough and ready)
 
 You probably won't get much out of this from a text description, but luckily there
 is a video :  https://youtu.be/Ry1xJV906Qo
