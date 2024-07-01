@@ -1,0 +1,3 @@
+openassetio==1.0.0b2.post2
+openassetio-manager-bal==1.0.0a16
+openassetio-mediacreation==1.0.0a9
